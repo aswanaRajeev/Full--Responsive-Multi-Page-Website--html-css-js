@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="university.css">
+</head>
+<body>
+    
+
+    <section class="sub-header">
+           <nav>
+            <a href="index.html"><img src="university logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="university.html">HOME</a></li>
+                    <li><a href="university about.html">ABOUT</a></li>
+                    <li><a href="university course.html">COURSE</a></li>
+                    <li><a href="university blog.html">BLOG</a></li>
+                    <li><a href="university contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list"  onclick="showMenu()"></i>
+           </nav>
+             <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+
+    <!------ bolg page content ------>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nulla.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, unde?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A!
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, reiciendis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nulla.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, unde?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fugit laborum.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, reiciendis!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nulla.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, unde?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fugit laborum.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, minus?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, nulla.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, unde?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. A!</p>
+
+
+
+                        <div class="comment-box">
+
+                            <h3>Leave a comment</h3>
+
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your comment"></textarea>
+                                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                            </form>
+                        </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Machine Learing</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Jurnalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!----  facilities ----->
+
+
+    
+
+   <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, fugiat corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, aliquid nulla.
+            Lorem ipsum dolor  sit amet consectetur <br> adipisicing elit. Voluptatem atque aperiam exercitationem?
+            Lorem ipsum dolor sit.
+        </p><br>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div><br>
+        <p>Made With <i class="bi bi-suit-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+    <!--javascript for toggle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+
+         
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
